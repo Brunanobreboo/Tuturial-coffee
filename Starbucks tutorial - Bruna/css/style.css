@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*explicar o que fiz aqui*/
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    /*explicar o que fiz aqui*/
+
+}
+htmml,body{
+    height: 100%;
+    overflow-y:hidden ;
+    overflow-x: hidden;
+    /*explicar o que fiz aqui*/
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+    /*explicar o que fiz aqui*/
+}
+.logo {
+    width: 100%;
+    /*explicar o que fiz aqui*/
+}
+
+.menu{
+    padding-top: 0%;
+    width: 100%;
+    text-align: right;
+    /*explicar o que fiz aqui*/
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2%;
+    /*explicar o que fiz aqui*/
+}
+section.sobre{
+    height: calc(100% - 200%);
+    position: relative;
+    /*explicar o que fiz aqui*/
+}
+.extras{
+    position: absolute;
+    bottom: -900px;
+    right: -500px;
+    width: 1100px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: #017143; 
+    /*explicar o que fiz aqui*/
+}
+.social-media {
+    position: absolute;
+    right: 530px; ;
+    top: 50px;
+    /*explicar o que fiz aqui*/
+}
+.social-media img{
+display: block;
+width: 30px;
+margin: 20px 0;
+/*explicar o que fiz aqui*/
+}
+
+.texto-sobre{
+    margin-top: 20px;
+    /*explicar o que fiz aqui*/
+}
+.texto-sobre h1{
+    font-size: 35px;
+    /*explicar o que fiz aqui*/
+}
+.texto-sobre p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+    /*explicar o que fiz aqui*/
+}
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    /*explicar o que fiz aqui*/
+}
